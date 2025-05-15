@@ -1,0 +1,12 @@
+pandas
+requests
+sentence-transformers
+faiss-cpu
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+ollama
+streamlit==1.30.0
+langchain-core
+langchain-huggingface
