@@ -12,7 +12,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 # Load and preprocess data
-df = pd.read_csv(r"D:\flipkart laptop search engine\clean_data.csv")
+df = pd.read_csv(r"D:\flipkart laptop search engine\data\clean_data.csv")
 
 def create_text(row):
     return (
